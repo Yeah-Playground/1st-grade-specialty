@@ -3,4 +3,4 @@ project(specialty)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(specialty main.cpp)
+add_executable(specialty main.cpp algorithm/factorial.h util.h)
