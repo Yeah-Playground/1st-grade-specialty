@@ -24,3 +24,6 @@ hs_err_pid*
 
 cmake-build-debug
 .idea
+.DS_STORE
+.gradle
+build
