@@ -20,8 +20,11 @@ int main() {
                 std::cout << n << "! = ", std::cout << factorial(n) << std::endl << std::endl;
                 break;
             }
-            case FACTORIAL_LOOP:
+            case FACTORIAL_LOOP: {
+                int n = getIntInput("정수 : ");
+                std::cout << n << "! = ", std::cout << factorialLoop(n) << std::endl << std::endl;
                 break;
+            }
             case EXIT_CODE:
             default:
                 continue;
