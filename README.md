@@ -15,3 +15,8 @@ cmake CMakeLists.txt
 # Java & Kotlin
 gradlew build
 ```
+```bash
+# jar executable
+echo ./exestub.sh ./your-executable-jar >> ./your-executable
+chmod +x ./your-executable 
+```
